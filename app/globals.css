@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a0a0a;
+  --surface: #141414;
+  --accent: #c84b31;
+  --text-primary: #f3ead9;
+  --text-muted: rgba(243,234,217,0.55);
+  --border: rgba(243,234,217,0.08);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
